@@ -1,0 +1,67 @@
+.RegisterSayt{
+    background-color: silver;
+    width: 100%;
+    height: 1000px;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+
+    
+
+    .text_img{
+        display: flex;
+        justify-content: space-between;
+        .text{
+        font-size: 22px;
+
+            h1{
+                color: #000000;
+                padding: 40px 60px;
+            }
+            .input_log{
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .p{
+                    margin-left: 40px;
+                    input{
+                    margin-left: -300px;
+
+
+                    }
+
+                }
+                input{
+                    width: 600px;
+                    height: 40px;
+                    padding: 15px;
+                    background-color: aquamarine;
+                    border: 1px solid red;
+                }
+                h3{
+                    font-size: 30px;
+                }
+                button{
+                    background-color: #FF8C00;
+                    font-size: 18px;
+                    border: none;
+                    color: white;
+                    width: 600px;
+                    height: 40px;
+                }
+            }
+
+        }
+
+    .foto{
+        display: block;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    }
+
+    }
+    
+}
